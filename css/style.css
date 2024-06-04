@@ -1,49 +1,60 @@
-/* ======== HEADER-SECTION-START ======== */
-
-*{
+/* Reset styles */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.header-section{
-    background-color: whitesmoke;
-    position: fixed;
-    top: 0;
-    width: 100%;
+body {
+    font-family: Arial, sans-serif;
 }
 
-/* ==== NAVBER-SECTION-START ==== */
-
-.navber-section{
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 68px;
-    max-width: 80vw;
-    margin: auto;
+    padding: 10px 20px;
 }
 
-.navber-section .logo{
-    font-size: 34px;
+header {
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-.navber-section .navber-links ul{
-    display: flex;
-    gap: 26px;
-}
-
-.navber-section .navber-links ul li{
-    list-style: none;
-}
-
-.navber-section .navber-links ul li a{
+.logo a {
+    color: white;
     text-decoration: none;
-    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
-.navber-section .navber-links ul li a:hover{
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
-    transition: all 0.8ms;
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
 }
