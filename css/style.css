@@ -1,4 +1,16 @@
-/* Reset styles */
+/* ======== HEADER-SECTION-START ======== */
+
+:root{
+    --header-color: rgb(255, 255, 255);
+    --body-color: rgb(244, 252, 244);
+    --button-color: rgb(88, 255, 88);
+    --border-color: rgb(88, 255, 88);
+    --text-color: rgb(88, 255, 88);
+    --progress-bar-color: rgb(16, 226, 16);
+    --hover-color: rgb(0, 244, 0);
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +26,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    max-width: 80vw;
+    margin: auto;
 }
 
 header {
@@ -32,6 +46,10 @@ header {
     text-decoration: none;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+nav{
+    height: 68px;
 }
 
 nav ul {
