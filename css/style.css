@@ -20,6 +20,7 @@
 
 .header-section{
     background-color: var(--header-color);
+    box-shadow: 4px 4px 2.8px 0 rgba(88, 255, 88, 788);
     position: fixed;
     top: 0;
     width: 100%;
@@ -34,6 +35,10 @@
     height: 68px;
     max-width: 80vw;
     margin: auto;
+}
+
+.navber-section .logo{
+    font-size: 26px;
 }
 
 .navber-section .navber-links{
@@ -53,10 +58,14 @@
 .navber-section .hamburger{
     display: flex;
     flex-direction: column;
+    gap: 4px;
+    display: none;
 }
 
 .navber-section .hamburger .bar{
-    width: 16px;
-    height: 8px;
-    color: black;
+    width: 26px;
+    height: 4px;
+    background-color: black;
+    border-radius: 8px;
+    display: block;
 }
