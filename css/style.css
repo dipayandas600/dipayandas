@@ -43,7 +43,7 @@
 
 .navber-section .navber-links{
     display: flex;
-    gap: 16px;
+    gap: 26px;
 }
 
 .navber-section .navber-links li{
@@ -68,4 +68,62 @@
     background-color: black;
     border-radius: 8px;
     display: block;
+}
+
+/* ==== NAVBER-SECTION-COMPLETE ==== */
+
+/* ======== HEADER-SECTION-COMPLETE ======== */
+
+/* ======== BODY-SECTION-START ======== */
+
+.body-section .right-and-left-side{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 194px 0 194px;
+    background-color: var(--body-color);
+    height: 100vh;
+}
+
+.body-section .right-and-left-side .right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.body-section .right-and-left-side .right-side .text-1{
+    font-size: 44px;
+}
+
+.body-section .right-and-left-side .right-side .text-2{
+    font-size: 34px;
+}
+
+.body-section .right-and-left-side .right-side .buttons{
+    display: flex;
+    gap: 54px;
+}
+
+.body-section .right-and-left-side .right-side .buttons #button{
+    background-color: var(--button-color);
+    border-radius: 8px;
+    border: none;
+    box-shadow: 2px 2px 2px 0;
+    padding: 8px 16px 8px 16px;
+}
+
+.body-section .right-and-left-side .right-side .buttons #button:hover{
+    background-color: var(--hover-color);
+    transition: all 0.8s;
+}
+
+.body-section .right-and-left-side .right-side .buttons a{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+}
+
+.body-section .right-and-left-side .right-side .social-links{
+    display: flex;
+    gap: 116px;
 }
