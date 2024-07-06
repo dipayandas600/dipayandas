@@ -2,9 +2,45 @@
     .header-section .navber-section{
         max-width: 95vw;
     }
+
+    .body-section{
+        padding: 0 44px 0 44px;
+    }
 }
 
-@media screen and (max-width: 1116px){
+@media screen and (max-width: 1254px){
+    .right-and-left-side .right-side .text-1{
+        font-size: 44px;
+    }
+
+    .right-and-left-side .right-side .text-2{
+        font-size: 26px;
+    }
+
+    .right-and-left-side .right-side .buttons{
+        display: flex;
+        gap: 54px;
+    }
+
+    .right-and-left-side .right-side .buttons #button a{
+        font-size: 16px;
+    }
+
+    .right-and-left-side .right-side .social-links{
+        display: flex;
+        gap: 78px;
+    }
+
+    .right-and-left-side .left-side .background-image{
+        width: 416px;
+    }
+}
+
+@media screen and (max-width: 976px){
+    .header-section .navber-section{
+        height: 60px;
+    }
+
     .header-section .navber-section .hamburger{
         display: block;
     }
@@ -46,5 +82,41 @@
 
     .header-section .navber-section .navber-links.active{
         right: 0;
+    }
+
+    .right-and-left-side{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 94px 0 0 0;
+        padding: 0 0 126px 0;
+    }
+
+    .right-and-left-side .right-side{
+        display: flex;
+        gap: 26px;
+    }
+}
+
+@media screen and (max-width: 526px){
+    .right-and-left-side .right-side .text-1{
+        font-size: 34px;
+    }
+
+    .right-and-left-side .right-side .text-2{
+        font-size: 16px;
+    }
+
+    .right-and-left-side .right-side .buttons{
+        display: flex;
+        gap: 16px;
+    }
+
+    .right-and-left-side .right-side .social-links{
+        display: flex;
+        gap: 54px;
+    }
+    
+    .right-and-left-side .left-side .background-image{
+        width: 388px;
     }
 }

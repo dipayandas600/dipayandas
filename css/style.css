@@ -76,35 +76,43 @@
 
 /* ======== BODY-SECTION-START ======== */
 
-.body-section .right-and-left-side{
+body{
+    background-color: var(--body-color);
+}
+
+.body-section{
+    padding: 0 194px 0 194px;
+}
+
+/* ==== RIGHT-AND-LEFT-START ==== */
+
+.right-and-left-side{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 194px 0 194px;
-    background-color: var(--body-color);
     height: 100vh;
 }
 
-.body-section .right-and-left-side .right-side{
+.right-and-left-side .right-side{
     display: flex;
     flex-direction: column;
-    gap: 44px;
+    gap: 58px;
 }
 
-.body-section .right-and-left-side .right-side .text-1{
-    font-size: 44px;
+.right-and-left-side .right-side .text-1{
+    font-size: 58px;
 }
 
-.body-section .right-and-left-side .right-side .text-2{
+.right-and-left-side .right-side .text-2{
     font-size: 34px;
 }
 
-.body-section .right-and-left-side .right-side .buttons{
+.right-and-left-side .right-side .buttons{
     display: flex;
     gap: 54px;
 }
 
-.body-section .right-and-left-side .right-side .buttons #button{
+.right-and-left-side .right-side .buttons #button{
     background-color: var(--button-color);
     border-radius: 8px;
     border: none;
@@ -112,18 +120,26 @@
     padding: 8px 16px 8px 16px;
 }
 
-.body-section .right-and-left-side .right-side .buttons #button:hover{
+.right-and-left-side .right-side .buttons #button:hover{
     background-color: var(--hover-color);
     transition: all 0.8s;
 }
 
-.body-section .right-and-left-side .right-side .buttons a{
+.right-and-left-side .right-side .buttons a{
     text-decoration: none;
     color: black;
     font-size: 26px;
 }
 
-.body-section .right-and-left-side .right-side .social-links{
+.right-and-left-side .right-side .social-links{
     display: flex;
     gap: 116px;
 }
+
+.right-and-left-side .left-side .background-image{
+    width: 488px;
+    border-radius: 50%;
+    box-shadow: 0 0 16px 16px rgba(88, 255, 88, 788);
+}
+
+/* ==== RIGHT-AND-LEFT-COMPLETE ==== */
