@@ -102,10 +102,6 @@
         font-size: 34px;
     }
 
-    .right-and-left-side .right-side .text-2{
-        font-size: 16px;
-    }
-
     .right-and-left-side .right-side .buttons{
         display: flex;
         gap: 16px;
@@ -117,6 +113,18 @@
     }
     
     .right-and-left-side .left-side .background-image{
-        width: 388px;
+        width: 368px;
+    }
+}
+
+@media screen and (max-width: 394px){
+    .right-and-left-side .left-side .background-image{
+        width: 344px;
+    }
+}
+
+@media screen and (max-width: 388px){
+    .right-andleft-side .left-side .background-image{
+        width: 188px;
     }
 }
