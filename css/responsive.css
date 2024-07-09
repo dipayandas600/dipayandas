@@ -34,6 +34,24 @@
     .right-and-left-side .left-side .background-image{
         width: 416px;
     }
+
+    .about .about-text{
+        font-size: 78px;
+    }
+
+    .about .about-container{
+        display: flex;
+        gap: 344px;
+    }
+
+    .about .about-container .background-image{
+        width: 416px;
+    }
+
+    .about .about-container p{
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
 }
 
 @media screen and (max-width: 976px){

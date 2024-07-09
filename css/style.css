@@ -143,3 +143,36 @@ body{
 }
 
 /* ==== RIGHT-AND-LEFT-COMPLETE ==== */
+
+/* ==== ABOUT-START ==== */
+
+.about{
+    height: 100vh;
+}
+
+.about .about-text{
+    text-align: center;
+    font-size: 88px;
+    letter-spacing: 8px;
+}
+
+.about .about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 288px;
+    margin: 116px 0;
+}
+
+.about .about-container .background-image{
+    width: 488px;
+    border-radius: 50%;
+    box-shadow: 0 0 16px 16px rgba(88, 255, 88, 788);
+}
+
+.about .about-container p{
+    font-size: 26px;
+    line-height: 58px;
+}
+
+/* ==== ABOUT-COMPLETE ==== */
