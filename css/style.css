@@ -1,73 +1,72 @@
 /* ======== HEADER-SECTION-START ======== */
 
-:root{
-    --header-color: rgb(255, 255, 255);
-    --body-color: rgb(244, 252, 244);
-    --button-color: rgb(88, 255, 88);
-    --border-color: rgb(88, 255, 88);
-    --text-color: rgb(88, 255, 88);
-    --progress-bar-color: rgb(16, 226, 16);
-    --hover-color: rgb(0, 244, 0);
+:root {
+  --header-color: rgb(255, 255, 255);
+  --body-color: rgb(244, 252, 244);
+  --button-color: rgb(88, 255, 88);
+  --border-color: rgb(88, 255, 88);
+  --text-color: rgb(88, 255, 88);
+  --progress-bar-color: rgb(16, 226, 16);
+  --hover-color: rgb(0, 244, 0);
 }
-
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
-.header-section{
-    background-color: var(--header-color);
-    box-shadow: 4px 4px 2.8px 0 rgba(88, 255, 88, 788);
-    position: fixed;
-    top: 0;
-    width: 100%;
+.header-section {
+  background-color: var(--header-color);
+  box-shadow: 4px 4px 2.8px 0 rgba(88, 255, 88, 788);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /* ==== NAVBER-SECTION-START ==== */
 
-.navber-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 68px;
-    max-width: 80vw;
-    margin: auto;
+.navber-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 68px;
+  max-width: 80vw;
+  margin: auto;
 }
 
-.navber-section .logo{
-    font-size: 26px;
+.navber-section .logo {
+  font-size: 26px;
 }
 
-.navber-section .navber-links{
-    display: flex;
-    gap: 26px;
+.navber-section .navber-links {
+  display: flex;
+  gap: 26px;
 }
 
-.navber-section .navber-links li{
-    list-style: none;
+.navber-section .navber-links li {
+  list-style: none;
 }
 
-.navber-section .navber-links li a{
-    text-decoration: none;
-    color: black;
+.navber-section .navber-links li a {
+  text-decoration: none;
+  color: black;
 }
 
-.navber-section .hamburger{
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    display: none;
+.navber-section .hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  display: none;
 }
 
-.navber-section .hamburger .bar{
-    width: 26px;
-    height: 4px;
-    background-color: black;
-    border-radius: 8px;
-    display: block;
+.navber-section .hamburger .bar {
+  width: 26px;
+  height: 4px;
+  background-color: black;
+  border-radius: 8px;
+  display: block;
 }
 
 /* ==== NAVBER-SECTION-COMPLETE ==== */
@@ -76,104 +75,104 @@
 
 /* ======== BODY-SECTION-START ======== */
 
-body{
-    background-color: var(--body-color);
+body {
+  background-color: var(--body-color);
 }
 
-.body-section{
-    max-width: 80vw;
-    margin: auto;
+.body-section {
+  max-width: 80vw;
+  margin: auto;
 }
 
 /* ==== RIGHT-AND-LEFT-START ==== */
 
-.right-and-left-side{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
+.right-and-left-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
 }
 
-.right-and-left-side .right-side{
-    display: flex;
-    flex-direction: column;
-    gap: 58px;
+.right-and-left-side .right-side {
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
 }
 
-.right-and-left-side .right-side .text-1{
-    font-size: 58px;
+.right-and-left-side .right-side .text-1 {
+  font-size: 58px;
 }
 
-.right-and-left-side .right-side .text-2{
-    font-size: 34px;
+.right-and-left-side .right-side .text-2 {
+  font-size: 34px;
 }
 
-.right-and-left-side .right-side .buttons{
-    display: flex;
-    gap: 54px;
+.right-and-left-side .right-side .buttons {
+  display: flex;
+  gap: 54px;
 }
 
-.right-and-left-side .right-side .buttons #button{
-    background-color: var(--button-color);
-    border-radius: 8px;
-    border: none;
-    box-shadow: 2px 2px 2px 0;
-    padding: 8px 16px 8px 16px;
+.right-and-left-side .right-side .buttons #button {
+  background-color: var(--button-color);
+  border-radius: 8px;
+  border: none;
+  box-shadow: 2px 2px 2px 0;
+  padding: 8px 16px 8px 16px;
 }
 
-.right-and-left-side .right-side .buttons #button:hover{
-    background-color: var(--hover-color);
-    transition: all 0.8s;
+.right-and-left-side .right-side .buttons #button:hover {
+  background-color: var(--hover-color);
+  transition: all 0.8s;
 }
 
-.right-and-left-side .right-side .buttons a{
-    text-decoration: none;
-    color: black;
-    font-size: 26px;
+.right-and-left-side .right-side .buttons a {
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
 }
 
-.right-and-left-side .right-side .social-links{
-    display: flex;
-    gap: 116px;
+.right-and-left-side .right-side .social-links {
+  display: flex;
+  gap: 116px;
 }
 
-.right-and-left-side .left-side .background-image{
-    width: 488px;
-    border-radius: 50%;
-    box-shadow: 0 0 16px 16px rgba(88, 255, 88, 788);
+.right-and-left-side .left-side .background-image {
+  width: 488px;
+  border-radius: 50%;
+  box-shadow: 0 0 16px 16px rgba(88, 255, 88, 788);
 }
 
 /* ==== RIGHT-AND-LEFT-COMPLETE ==== */
 
 /* ==== ABOUT-START ==== */
 
-.about{
-    height: 100vh;
+.about {
+  height: 100vh;
 }
 
-.about .about-text{
-    text-align: center;
-    font-size: 88px;
-    letter-spacing: 8px;
+.about .about-text {
+  text-align: center;
+  font-size: 88px;
+  letter-spacing: 8px;
 }
 
-.about .about-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 288px;
-    margin: 116px 0;
+.about .about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 288px;
+  margin: 116px 0;
 }
 
-.about .about-container .background-image{
-    width: 488px;
-    border-radius: 50%;
-    box-shadow: 0 0 16px 16px rgba(88, 255, 88, 788);
+.about .about-container .background-image {
+  width: 488px;
+  border-radius: 50%;
+  box-shadow: 0 0 16px 16px rgba(88, 255, 88, 788);
 }
 
-.about .about-container p{
-    font-size: 26px;
-    line-height: 58px;
+.about .about-container p {
+  font-size: 26px;
+  line-height: 58px;
 }
 
 /* ==== ABOUT-COMPLETE ==== */
