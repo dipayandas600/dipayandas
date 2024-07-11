@@ -156,10 +156,22 @@
     .right-and-left-side .left-side .background-image{
         width: 368px;
     }
+
+    .about .about-text{
+        font-size: 34px;
+    }
+
+    .about .about-container .background-image{
+        width: 368px;
+    }
 }
 
 @media screen and (max-width: 394px){
     .right-and-left-side .left-side .background-image{
+        width: 344px;
+    }
+
+    .about .about-container .background-image{
         width: 344px;
     }
 }
@@ -197,10 +209,18 @@
     .right-andleft-side .left-side .background-image{
         width: 316px;
     }
+
+    .about .about-container .background-image{
+        width: 316px;
+    }
 }
 
 @media screen and (max-width: 348px){
     .right-and-left-side .left-side .background-image{
+        width: 288px;
+    }
+
+    .about .about-container .background-image{
         width: 288px;
     }
 }
