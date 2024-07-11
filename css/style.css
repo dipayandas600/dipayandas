@@ -81,7 +81,8 @@ body{
 }
 
 .body-section{
-    padding: 0 194px 0 194px;
+    max-width: 80vw;
+    margin: auto;
 }
 
 /* ==== RIGHT-AND-LEFT-START ==== */

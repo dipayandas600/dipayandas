@@ -4,7 +4,7 @@
     }
 
     .body-section{
-        padding: 0 44px 0 44px;
+        max-width: 95vw;
     }
 }
 
@@ -41,7 +41,7 @@
 
     .about .about-container{
         display: flex;
-        gap: 344px;
+        gap: 168px;
     }
 
     .about .about-container .background-image{
@@ -50,7 +50,9 @@
 
     .about .about-container p{
         font-size: 16px;
+        font-weight: 588;
         letter-spacing: 2px;
+        line-height: 54px;
     }
 }
 
@@ -112,6 +114,22 @@
     .right-and-left-side .right-side{
         display: flex;
         gap: 26px;
+    }
+
+    .about .about-text{
+        font-size: 54px;
+    }
+
+    .about .about-container{
+        display: flex;
+        flex-direction: column;
+        gap: 44px;
+        margin: 44px 0 0 0;
+    }
+
+    .about .about-container p{
+        text-align: center;
+        line-height: 34px;
     }
 }
 
