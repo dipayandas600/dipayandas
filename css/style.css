@@ -38,11 +38,13 @@
 
 .navber-section .logo {
   font-size: 26px;
+  animation: slideRight 0.8s forwards;
 }
 
 .navber-section .navber-links {
   display: flex;
   gap: 26px;
+  animation: slideLeft 0.8s forwards;
 }
 
 .navber-section .navber-links li {
@@ -101,6 +103,7 @@ body {
 
 .right-and-left-side .right-side .text-1 {
   font-size: 58px;
+  animation: slideRight 0.8s forwards;
 }
 
 .right-and-left-side .right-side .text-2 {
