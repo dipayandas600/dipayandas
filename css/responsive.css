@@ -14,16 +14,45 @@
   }
   
   .right-and-left-side .right-side .text-2{
-    font-size: 44px;
+    font-size: 26px;
   }
   
   .right-and-left-side .right-side .buttons{
     display: flex;
     gap: 54px;
   }
+
+  .right-and-left-side .right-side .buttons #button a{
+    font-size: 16px;
+  }
+
+  .right-and-left-side .right-side .social-links{
+    display: flex;
+    gap: 78px;
+  }
   
   .right-and-left-side .left-side .background-image{
     width: 416px;
+  }
+
+  .about .about-text{
+    font-size: 78px;
+  }
+
+  .about .about-container{
+    display: flex;
+    gap: 168px;
+  }
+
+  .about .about-container .background-image{
+    width: 416px;
+  }
+
+  .about .about-container p{
+    font-size: 16px;
+    font-weight: 588;
+    letter-spacing: 2px;
+    line-height: 54px;
   }
 }
 
