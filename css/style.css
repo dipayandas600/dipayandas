@@ -164,7 +164,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 288px;
-  margin: 116px 0;
+  height: 78vh;
 }
 
 .about .about-container .background-image {
