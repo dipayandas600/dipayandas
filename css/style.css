@@ -179,3 +179,55 @@ body {
 }
 
 /* ==== ABOUT-COMPLETE ==== */
+
+/* ==== SKILL-START ==== */
+
+.skills{
+  height: 100vh;
+}
+
+.skills .skills-text{
+  text-align: center;
+  font-size: 88px;
+  letter-spacing: 8px;
+}
+
+.skills .skills-container .sub-containers .technical-skills-container #text-1{
+  font-size: 34px;
+  margin: 0 0 0 134px;
+  text-decoration: underline;
+  letter-spacing: 4px;
+}
+
+.skill {
+  margin-top: 26px;
+  margin-bottom: 26px;
+  width: 588px;
+}
+
+.skill h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.progress-bar {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  height: 26px;
+  width: 588px;
+}
+
+.progress {
+  background: var(--progress-bar-color);
+  height: 100%;
+  width: 0;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: width 2s ease-in-out;
+}
