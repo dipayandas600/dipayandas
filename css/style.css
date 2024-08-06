@@ -244,27 +244,27 @@ body {
   letter-spacing: 4px;
 }
 
-/* .progress-container {
+.skills .skills-container .sub-containers .performence-skills-container #skill{
+  background-color: white;
+  width: 288px;
+  height: 288px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  border-radius: 50%;
+}
+
+.skills .skills-container .sub-containers .performence-skills-container #skill h3{
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  width: 200px;
-  height: 200px;
-} */
-
-.circular-progress {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  background: conic-gradient(#6a1b9a 0%, #6a1b9a 0%, #e0e0e0 0%);
+  padding: 116px 0 0 0;
 }
 
-.circular-progress .progress-value {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 24px;
+.skills .skills-container .sub-containers .performence-skills-container #skill .circular-bar{
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  height: 278px;
+  width: 278px;
 }
