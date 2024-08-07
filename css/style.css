@@ -244,36 +244,37 @@ body {
   letter-spacing: 4px;
 }
 
-/* .progress-container {
+.skills .skills-container .sub-containers .performence-skills-container .progress-container-1{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 200px;
-  height: 200px;
-} */
+  gap: 26px;
+}
 
-.circular-progress {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  /* background: conic-gradient(#6a1b9a 0%, #e0e0e0 0%); */
+.skills .skills-container .sub-containers .performence-skills-container .progress-container-2{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 26px;
+}
+
+.skills .skills-container .sub-containers .performence-skills-container .progress-container{
+  background-color: white;
+  width: 288px;
+  height: 288px;
+  border-radius: 50%;
   margin-top: 26px;
   margin-bottom: 26px;
+  position: relative;
 }
 
-#circular-progress{
-  background-color: var(--progress-bar-color);
+.skills .skills-container .sub-containers .performence-skills-container .circular-progress{
+  background-color: conic-gradient(white 0%, rgb(16, 226, 16) 0%);
+  position: relative;
+  width: 278px;
+  height: 278px;
+  border-radius: 50%;
 }
 
-.circular-progress .progress-value {
+.skills .skills-container .sub-containers .performence-skills-container .circular-progress .progress-value{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 24px;
 }
