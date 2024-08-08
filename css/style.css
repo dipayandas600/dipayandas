@@ -246,15 +246,15 @@ body {
 
 .skills .skills-container .sub-containers .performence-skills-container .progress-container-1{
   display: flex;
-  gap: 26px;
+  gap: 54px;
 }
 
 .skills .skills-container .sub-containers .performence-skills-container .progress-container-2{
   display: flex;
-  gap: 26px;
+  gap: 54px;
 }
 
-.skills .skills-container .sub-containers .performence-skills-container .progress-container{
+/* .skills .skills-container .sub-containers .performence-skills-container .progress-container{
   background-color: white;
   width: 288px;
   height: 288px;
@@ -262,14 +262,16 @@ body {
   margin-top: 26px;
   margin-bottom: 26px;
   position: relative;
-}
+} */
 
 .skills .skills-container .sub-containers .performence-skills-container .circular-progress{
   background-color: conic-gradient(white 0%, rgb(16, 226, 16) 0%);
   position: relative;
-  width: 278px;
-  height: 278px;
+  width: 288px;
+  height: 288px;
   border-radius: 50%;
+  margin-top: 26px;
+  margin-bottom: 26px;
 }
 
 .skills .skills-container .sub-containers .performence-skills-container .circular-progress .progress-value{
@@ -277,4 +279,16 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: white;
+  width: 254px;
+  height: 254px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills .skills-container .sub-containers .performence-skills-container .circular-progress .text{
+  display: flex;
+  justify-content: center;
 }
