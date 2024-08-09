@@ -54,6 +54,10 @@
     letter-spacing: 2px;
     line-height: 54px;
   }
+  
+  .skills .skills-text{
+    font-size: 78px;
+  }
 }
 
 @media screen and (max-width: 1254px) {
