@@ -306,7 +306,6 @@
   }
 
   .skills .skills-container .sub-containers .technical-skills-container .skill{
-    margin-bottom: 8px;
     width: 434px;
   }
 
@@ -321,6 +320,21 @@
   .skills .skills-container .sub-containers .performence-skills-container .progress-container-1{
     display: flex;
     gap: 26px;
+  }
+  
+  .skills .skills-container .sub-containers .performence-skills-container .progress-container-2{
+    display: flex;
+    gap: 26px;
+  }
+
+  .skills .skills-container .sub-containers .performence-skills-container .circular-progress{
+    width: 216px;
+    height: 216px;
+  }
+  
+  .skills .skills-container .sub-containers .performence-skills-container .circular-progress .progress-value{
+    width: 188px;
+    height: 188px;
   }
 }
 
@@ -398,6 +412,24 @@
   .about .about-container p {
     text-align: center;
     line-height: 34px;
+  }
+
+  .skills .skills-text{
+    font-size: 54px;
+  }
+
+  .skills .skills-container .sub-containers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills .skills-container .sub-containers .technical-skills-container .skill{
+    margin-bottom: 8px;
+  }
+
+  .skills .skills-container .sub-containers .technical-skills-container .skill h3{
+    font-size: 16px;
   }
 }
 
