@@ -300,6 +300,30 @@
   }
 }
 
+@media screen and (max-width: 1126px){
+  .skills .skills-text{
+    font-size: 68px;
+  }
+
+  .skills .skills-container .sub-containers .technical-skills-container .skill{
+    margin-bottom: 8px;
+    width: 434px;
+  }
+
+  .skills .skills-container .sub-containers .technical-skills-container .skill .icons{
+    width: 26px;
+  }
+  
+  .skills .skills-container .sub-containers .technical-skills-container .skill .progress-bar{
+    width: 434px;
+  }
+  
+  .skills .skills-container .sub-containers .performence-skills-container .progress-container-1{
+    display: flex;
+    gap: 26px;
+  }
+}
+
 @media screen and (max-width: 976px) {
   .header-section .navber-section {
     height: 60px;
