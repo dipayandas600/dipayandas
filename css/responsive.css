@@ -414,6 +414,10 @@
     line-height: 34px;
   }
 
+  .skills{
+    height: 152vh;
+  }
+
   .skills .skills-text{
     font-size: 54px;
   }
@@ -422,6 +426,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 54px;
   }
 
   .skills .skills-container .sub-containers .technical-skills-container .skill{
@@ -430,6 +435,30 @@
 
   .skills .skills-container .sub-containers .technical-skills-container .skill h3{
     font-size: 16px;
+    margin-bottom: 4px;
+  }
+
+  .skills .skills-container .sub-containers .technical-skills-container .skill .progress-bar{
+    height: 16px;
+  }
+
+  .skills .skills-container .sub-containers .technical-skills-container #text-1{
+    font-size: 22px;
+    margin-top: 26px;
+  }
+
+  .skills .skills-container .sub-containers .performence-skills-container #text-2{
+    font-size: 22px;
+  }
+
+  .skills .skills-container .sub-containers .performence-skills-container .circular-progress .text{
+    font-size: 16px;
+    font-weight: 558;
+  }
+
+  .skills .skills-container .sub-containers .performence-skills-container .circular-progress .progress-value{
+    font-size: 16px;
+    font-weight: 558;
   }
 }
 
@@ -463,6 +492,18 @@
 
   .about .about-container .background-image {
     width: 368px;
+  }
+  
+  .skills .skills-text{
+    font-size: 34px;
+  }
+
+  .skills .skills-container .sub-containers .technical-skills-container .skill{
+    width: 388px;
+  }
+
+  .skills .skills-container .sub-containers .technical-skills-container .skill .progress-bar{
+    width: 388px;
   }
 }
 
