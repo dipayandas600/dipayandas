@@ -315,15 +315,21 @@ body {
   letter-spacing: 8px;
 }
 
+.experience .experience-container .sub-containers .experience-card-container-1{
+  display: flex;
+  justify-content: space-between;
+}
+
 .experience .experience-container .sub-containers .experience-card-container-1 .card-container{
-  border: 1.16px solid black;
+  /* border: 1.16px solid black; */
   width: 244px;
   height: 316px;
   border-radius: 8px;
+  box-shadow: 0 0 4px 4px rgba(88, 255, 88, 788);
 }
 
 .experience .experience-container .sub-containers .experience-card-container-1 .card-container .card-header{
-  background-image: url('./public/images/experience/amazon.png');
-  background-size: 100%;
+  background-image: url("../public/images/experience/amazon.png");
+  width: 100%;
   background-position: center;
 }
