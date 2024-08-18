@@ -315,12 +315,17 @@ body {
   letter-spacing: 8px;
 }
 
-.experience .experience-container .sub-containers .experience-card-container-1{
-  display: flex;
-  justify-content: space-between;
+.experience .experience-container .sub-containers{
+  margin: 54px 0;
 }
 
-.experience .experience-container .sub-containers .experience-card-container-1 .card-container{
+.experience .experience-container .sub-containers .experience-card-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 54px;
+}
+
+.experience .experience-container .sub-containers .experience-card-container .card-container{
   /* border: 1.16px solid black; */
   width: 244px;
   height: 316px;
@@ -328,8 +333,14 @@ body {
   box-shadow: 0 0 2px 2px rgba(88, 255, 88, 788);
 }
 
-.experience .experience-container .sub-containers .experience-card-container-1 .card-container .card-header{
-  background-image: url("../public/images/experience/amazon.png");
-  width: 100%;
-  background-position: center;
+.experience .experience-container .sub-containers .experience-card-container .card-container .card-header .experience-image{
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.experience .experience-container .sub-containers .experience-card-container .card-container .card-body{
+  background-color: white;
+  height: 194px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
