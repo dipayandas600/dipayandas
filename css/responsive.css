@@ -109,6 +109,11 @@
 }
 
 @media screen and (max-width: 1280px){
+  .right-and-left-side .right-side{
+    gap: 44px;
+    height: 58vh;
+  }
+
   .right-and-left-side .right-side .text-1{
     font-size: 44px;
   }
@@ -132,11 +137,12 @@
   }
   
   .right-and-left-side .left-side .background-image{
-    width: 416px;
+    width: 368px;
+    margin: 34px 0 0 0;
   }
 
   .about .about-text{
-    font-size: 78px;
+    font-size: 58px;
   }
 
   .about .about-container{
@@ -145,18 +151,18 @@
   }
 
   .about .about-container .background-image{
-    width: 416px;
+    width: 368px;
   }
 
   .about .about-container p{
     font-size: 16px;
     font-weight: 588;
     letter-spacing: 2px;
-    line-height: 54px;
+    line-height: 44px;
   }
   
   .skills .skills-text{
-    font-size: 78px;
+    font-size: 58px;
   }
 
   .skills .skills-container .sub-containers .technical-skills-container #text-1{
