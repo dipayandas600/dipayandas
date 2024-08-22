@@ -534,7 +534,7 @@
 
 @media screen and (max-width: 454px){
   .skills{
-    height: 126vh;
+    height: 112vh;
   }
 
   .skills .skills-container .sub-containers .technical-skills-container #text-1{
@@ -684,5 +684,10 @@
   .skills .skills-container .sub-containers .performence-skills-container .circular-progress{
     width: 138px;
     height: 138px;
+  }
+
+  .skills .skills-container .sub-containers .performence-skills-container .circular-progress .progress-value{
+    width: 122px;
+    height: 122px;
   }
 }
