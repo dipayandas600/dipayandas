@@ -672,4 +672,17 @@
   .about .about-container .background-image {
     width: 288px;
   }
+
+  .skills .skills-container .sub-containers .technical-skills-container .skill{
+    width: 288px;
+  }
+
+  .skills .skills-container .sub-containers .technical-skills-container .skill .progress-bar{
+    width: 288px;
+  }
+
+  .skills .skills-container .sub-containers .performence-skills-container .circular-progress{
+    width: 138px;
+    height: 138px;
+  }
 }
