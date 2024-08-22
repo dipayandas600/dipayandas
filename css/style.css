@@ -132,10 +132,10 @@ body {
 }
 
 .right-and-left-side .right-side .buttons #button {
-  background-color: var(--button-color);
+  /* background-color: var(--button-color); */
+  background-color: transparent;
   border-radius: 8px;
-  border: none;
-  box-shadow: 2px 2px 2px 0;
+  border-color: var(--border-color);
   padding: 8px 16px 8px 16px;
 }
 
