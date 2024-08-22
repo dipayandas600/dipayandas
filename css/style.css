@@ -92,7 +92,9 @@
 /* ======== BODY-SECTION-START ======== */
 
 body {
-  background-image: url(/public/images/backgroundimage.jpg);
+  /* background-image: url(/public/images/backgroundimage.jpg); */
+  /* background-image: url(/public/images/backgroundimage1.jpg); */
+  background-image: url(/public/images/backgroundimage2.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
 }
@@ -119,11 +121,17 @@ body {
 
 .right-and-left-side .right-side .text-1 {
   font-size: 58px;
+  font-weight: 588;
+  letter-spacing: 2px;
+  color: white;
   animation: slideRight 0.8s forwards;
 }
 
 .right-and-left-side .right-side .text-2 {
   font-size: 34px;
+  color: white;
+  font-weight: 588;
+  letter-spacing: 2px;
 }
 
 .right-and-left-side .right-side .buttons {
@@ -146,8 +154,12 @@ body {
 
 .right-and-left-side .right-side .buttons a {
   text-decoration: none;
-  color: black;
+  color: var(--text-color);
   font-size: 26px;
+}
+
+.right-and-left-side .right-side .buttons a:hover{
+  color: black;
 }
 
 .right-and-left-side .right-side .social-links {
