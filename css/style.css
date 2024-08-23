@@ -170,7 +170,7 @@ body {
 .right-and-left-side .left-side .background-image {
   width: 488px;
   border-radius: 50%;
-  box-shadow: 0 0 16px 16px rgba(88, 255, 88, 788);
+  box-shadow: 0 0 8px 8px rgba(88, 255, 88, 788);
 }
 
 /* ==== RIGHT-AND-LEFT-COMPLETE ==== */
@@ -337,19 +337,20 @@ body {
 /* ==== EXPERIENCE-START ==== */
 
 .experience{
-  height: 100vh;
+  height: 94vh;
 }
 
 .experience .experience-text{
   text-align: center;
   font-size: 88px;
+  margin: 16px 0 0 0;
   letter-spacing: 8px;
 }
 
 .experience .experience-container .sub-containers .experience-card-container{
   display: flex;
   justify-content: space-between;
-  margin-top: 88px;
+  margin-top: 54px;
 }
 
 .experience .experience-container .sub-containers .experience-card-container .card-container{
