@@ -323,13 +323,17 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
+  /* background-color: white; */
+  background-image: url(/public/images/backgroundimage2.jpg);
+  background-size: 100%;
+  background-position: center;
   width: 254px;
   height: 254px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
   font-size: 26px;
   font-weight: 588;
   letter-spacing: 2px;
@@ -338,6 +342,8 @@ body {
 .skills .skills-container .sub-containers .performence-skills-container .circular-progress .text{
   display: flex;
   justify-content: center;
+  color: white;
+  float: right;
   font-size: 26px;
   font-weight: 588;
   letter-spacing: 2px;
@@ -451,14 +457,15 @@ body {
 
 .services .services-container .sub-containers .services-card-container .card-container{
   /* border: 1.16px solid black; */
+  background-color: white;
+  border-radius: 8px;
   width: 240px;
   height: 254px;
   border-radius: 8px;
-  box-shadow: 0 0 2px 2px rgba(88, 255, 88, 7888);
+  box-shadow: 0 0 2px 2px rgba(88, 255, 88, 788);
 }
 
 .services .services-container .sub-containers .services-card-container .card-container .card-body{
-  background-color: white;
   height: 116px;
   border-bottom-right-radius: 8px;
   border-bottom-left-radius: 8px;
