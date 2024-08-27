@@ -501,6 +501,16 @@ body {
   gap: 16px;
 }
 
-.contact .form-container .form-group{
-  gap: 8px;
+.contact .form-container .form-group input{
+  padding: 0 116px 0 116px;
+  border-color: var(--border-color);
+}
+
+.contact .form-container .form-group .message-box{
+  height: 216px;
+}
+
+.contact .form-container .send-button{
+  padding: 16px 26px 16px 26px;
+  border-radius: 8px;
 }
