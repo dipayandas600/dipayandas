@@ -498,4 +498,9 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 54px 0 0 0;
+  gap: 16px;
+}
+
+.contact .form-container .form-group{
+  gap: 8px;
 }
