@@ -504,6 +504,8 @@ body {
 .contact .form-container .form-group input{
   padding: 0 116px 0 116px;
   border-color: var(--border-color);
+  border-radius: 8px;
+  height: 44px;
 }
 
 .contact .form-container .form-group .message-box{
@@ -511,6 +513,17 @@ body {
 }
 
 .contact .form-container .send-button{
-  padding: 16px 26px 16px 26px;
+  padding: 16px 58px 16px 58px;
   border-radius: 8px;
+  border: none;
+  background-color: var(--button-color);
+  font-size: 26px;
+  font-weight: 588;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.contact .form-container .send-button:hover{
+  background-color: var(--hover-color);
+  transition: all 0.8ms;
 }
