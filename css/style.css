@@ -527,3 +527,19 @@ body {
   background-color: var(--hover-color);
   transition: all 0.8ms;
 }
+
+/* ==== CONTACT-COMPLETE ==== */
+
+/* ======== BODY-SECTION-COMPLETE ======== */
+
+/* ======== FOOTER-SECTION-START ======== */
+
+.footer-section{
+  background-color: var(--header-color);
+  box-shadow: 4px 4px 2.8px 0;
+}
+
+.footer-section .footer-text{
+  text-align: center;
+  height: 68px;
+}
