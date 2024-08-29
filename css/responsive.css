@@ -3,8 +3,12 @@
     max-width: 95vw;
   }
 
-  .body-section {
-    max-width: 95vw;
+  .right-and-left-side{
+    padding: 0 48px 0 38px;
+  }
+  
+  .about{
+    padding: 0 48px 0 48px;
   }
 }
 
