@@ -482,7 +482,7 @@ body {
 /* ==== CONTACT-START ==== */
 
 .contact{
-  height: 94vh;
+  height: 88vh;
   background-color: white;
 }
 
@@ -497,7 +497,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 54px 0 0 0;
+  margin: 78px 0 0 0;
   gap: 16px;
 }
 
@@ -536,10 +536,10 @@ body {
 
 .footer-section{
   background-color: var(--header-color);
-  box-shadow: 4px 4px 2.8px 0;
+  box-shadow: 0 0 4px 4px rgba(88, 255, 88, 788);
 }
 
 .footer-section .footer-text{
   text-align: center;
-  height: 68px;
+  padding: 16px 0 16px 0;
 }
