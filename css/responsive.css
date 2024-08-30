@@ -10,6 +10,18 @@
   .about{
     padding: 0 48px 0 48px;
   }
+
+  .skills{
+    padding: 0 34px 0 34px;
+  }
+
+  .experience{
+    padding: 0 44px 0 44px;
+  }
+
+  .services{
+    padding: 0 44px 0 44px;
+  }
 }
 
 @media screen and (max-width: 1588px){
