@@ -415,6 +415,7 @@ body {
   background-color: var(--button-color);
   letter-spacing: 2px;
   cursor: pointer;
+  font-weight: 588;
 }
 
 .experience .experience-container .sub-containers .experience-card-container .card-container .card-body #card-button{
@@ -426,6 +427,7 @@ body {
   background-color: var(--button-color);
   letter-spacing: .88px;
   cursor: pointer;
+  font-weight: 588;
 }
 
 /* ==== EXPERIENCE-COMPLETE ==== */
@@ -499,6 +501,11 @@ body {
   align-items: center;
   margin: 78px 0 0 0;
   gap: 16px;
+}
+
+.contact .form-container .form-group .form-text{
+  font-weight: 588;
+  letter-spacing: .88px;
 }
 
 .contact .form-container .form-group input{
