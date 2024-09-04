@@ -147,6 +147,7 @@ body {
   border-radius: 8px;
   border-color: var(--border-color);
   padding: 8px 16px 8px 16px;
+  letter-spacing: .54px;
 }
 
 .right-and-left-side .right-side .buttons #button:hover {
@@ -550,3 +551,5 @@ body {
   text-align: center;
   padding: 16px 0 16px 0;
 }
+
+/* ======== FOOTER-SECTION-COMPLETE ======== */
