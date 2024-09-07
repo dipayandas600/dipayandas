@@ -425,7 +425,7 @@ body {
   border-radius: 8px;
   border: none;
   background-color: var(--button-color);
-  letter-spacing: 2px;
+  letter-spacing: .88px;
   cursor: pointer;
   font-weight: 588;
 }
