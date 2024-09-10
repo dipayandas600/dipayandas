@@ -445,9 +445,9 @@
     gap: 54px;
   }
 
-  .skills .skills-container .sub-containers .technical-skills-container .skill{
+  /* .skills .skills-container .sub-containers .technical-skills-container .skill{
     margin-bottom: 8px;
-  }
+  } */
 
   .skills .skills-container .sub-containers .technical-skills-container .skill h3{
     font-size: 16px;
