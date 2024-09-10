@@ -127,6 +127,7 @@ body {
   letter-spacing: 2px;
   color: white;
   animation: slideRight 0.8s forwards;
+  z-index: -1;
 }
 
 .right-and-left-side .right-side .text-2 {
@@ -134,17 +135,22 @@ body {
   color: white;
   font-weight: 588;
   letter-spacing: 2px;
+  animation: slideRight 0.8s forwards;
+  z-index: -1;
 }
 
 .right-and-left-side .right-side #element{
   color: var(--text-color);
   font-weight: 588;
   letter-spacing: .88px;
+  animation: slideUp 0.8s forwards;
 }
 
 .right-and-left-side .right-side .buttons {
   display: flex;
   gap: 48px;
+  animation: slideUp 0.8s forwards;
+  z-index: -1;
 }
 
 .right-and-left-side .right-side .buttons #button {
@@ -180,12 +186,16 @@ body {
 .right-and-left-side .right-side .social-links {
   display: flex;
   gap: 116px;
+  animation: slideUp 0.8s forwards;
+  z-index: -1;
 }
 
 .right-and-left-side .left-side .background-image {
   width: 488px;
   border-radius: 50%;
   box-shadow: 0 0 8px 8px rgba(88, 255, 88, 788);
+  animation: slideLeft 0.8s forwards;
+  z-index: -1;
 }
 
 /* ==== RIGHT-AND-LEFT-COMPLETE ==== */
@@ -203,6 +213,8 @@ body {
   font-size: 88px;
   margin: 16px 0 0 0;
   letter-spacing: 8px;
+  animation: fadeIn 0.8s forwards;
+  z-index: -1;
 }
 
 .about .about-container {
