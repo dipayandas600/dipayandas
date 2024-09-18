@@ -71,6 +71,15 @@
     width: 244px;
     height: 244px;
   }
+
+  .experience .experience-text{
+    font-size: 78px;
+  }
+
+  .experience .experience-container .sub-containers .experience-card-container .card-container{
+    width: 226px;
+    height: 244px;
+  }
 }
 
 @media screen and (max-width: 1344px){
@@ -118,6 +127,15 @@
 
   .skills .skills-container .sub-containers .performence-skills-container .circular-progress .progress-value{
     width: 244px;
+    height: 244px;
+  }
+
+  .experience .experience-text{
+    font-size: 78px;
+  }
+
+  .experience .experience-container .sub-containers .experience-card-container .card-container{
+    width: 226px;
     height: 244px;
   }
 }
@@ -217,6 +235,15 @@
 
   .skills .skills-container .sub-containers .performence-skills-container .circular-progress .progress-value{
     width: 244px;
+    height: 244px;
+  }
+
+  .experinece .experience-text{
+    font-size: 58px;
+  }
+
+  .experience .experience-container .sub-containers .experience-card-container .card-container{
+    width: 226px;
     height: 244px;
   }
 }
