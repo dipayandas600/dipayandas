@@ -42,8 +42,8 @@
 }
 
 .navber-section .logo {
-  font-size: 26px;
-  font-weight: 588;
+  font-size: 34px;
+  font-weight: bold;
   letter-spacing: .88px;
   animation: slideRight 0.8s forwards;
 }
@@ -397,6 +397,7 @@ body {
 .experience .experience-container .sub-containers .experience-card-container{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 54px;
   animation: slideUp 0.8s;
 }
