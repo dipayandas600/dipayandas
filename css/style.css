@@ -95,10 +95,7 @@
 body {
   /* background-image: url(/public/images/backgroundimage.jpg); */
   /* background-image: url(/public/images/backgroundimage1.jpg); */
-  background-image: url(/public/images/backgroundimage2.jpg);
-  background-size: 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, rgb(0, 34, 0) , rgb(0, 188, 0));
 }
 
 /* .body-section {
@@ -189,7 +186,7 @@ body {
 
 .right-and-left-side .left-side .background-image {
   width: 488px;
-  border-radius: 50%;
+  border-radius: 116px;
   box-shadow: 0 0 8px 8px rgba(88, 255, 88, 788);
   animation: slideLeft 0.8s;
 }
@@ -223,7 +220,7 @@ body {
 
 .about .about-container .background-image {
   width: 488px;
-  border-radius: 50%;
+  border-radius: 116px;
   box-shadow: 0 0 8px 8px rgba(88, 255, 88, 788);
   animation: slideRight 0.8s;
 }
@@ -353,10 +350,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* background-color: white; */
-  background-image: url(/public/images/backgroundimage2.jpg);
-  background-size: 100%;
-  background-position: center;
+  background-image: linear-gradient(to right, rgb(0, 138, 0) , rgb(0, 188, 0));
   width: 254px;
   height: 254px;
   border-radius: 50%;
