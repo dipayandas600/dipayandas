@@ -408,6 +408,7 @@ body {
   height: 254px;
   border-radius: 8px;
   box-shadow: 0 0 2px 2px rgba(88, 255, 88, 788);
+  margin: 0 0 34px 0;
 }
 
 .experience .experience-container .sub-containers .experience-card-container .card-container .card-header .experience-image{

@@ -366,6 +366,12 @@
   }
 }
 
+@media screen and (max-width: 1048px){
+  .experience{
+    height: 178vh;
+  }
+}
+
 @media screen and (max-width: 976px) {
   .header-section .navber-section {
     height: 60px;
@@ -487,6 +493,12 @@
   .skills .skills-container .sub-containers .performence-skills-container .circular-progress .progress-value{
     font-size: 16px;
     font-weight: 558;
+  }
+}
+
+@media sreen and (max-width: 568px){
+  .experience{
+    height: 316vh;
   }
 }
 
