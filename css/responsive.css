@@ -421,6 +421,10 @@
     right: 0;
   }
 
+  .header-section .navber-section .navber-links li a{
+    color: white;
+  }
+
   .right-and-left-side {
     display: flex;
     flex-direction: column-reverse;
