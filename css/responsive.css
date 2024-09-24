@@ -75,6 +75,10 @@
   .experience .experience-text{
     font-size: 78px;
   }
+
+  .services .services-text{
+    font-size: 78px;
+  }
 }
 
 @media screen and (max-width: 1344px){
@@ -127,6 +131,20 @@
 
   .experience .experience-text{
     font-size: 78px;
+  }
+
+  .services .services-text{
+    font-size: 78px;
+  }
+}
+
+@media screen and (max-width: 1288px){
+  .services{
+    height: 134vh;
+  }
+
+  .services .services-container .sub-containers{
+    margin: 88px 0 0 0;
   }
 }
 
@@ -231,6 +249,10 @@
   .experinece .experience-text{
     font-size: 58px;
   }
+
+  .services .services-text{
+    font-size: 58px;
+  }
 }
 
 @media screen and (max-width: 1254px) {
@@ -326,6 +348,14 @@
     width: 216px;
     height: 216px;
   }
+
+  .experience .experience-text{
+    font-size: 44px;
+  }
+
+  .services .services-text{
+    font-size: 44px;
+  }
 }
 
 @media screen and (max-width: 1126px){
@@ -363,6 +393,14 @@
   .skills .skills-container .sub-containers .performence-skills-container .circular-progress .progress-value{
     width: 188px;
     height: 188px;
+  }
+
+  .experience .experience-text{
+    font-size: 44px;
+  }
+
+  .services .services-text{
+    font-size: 44px;
   }
 }
 
@@ -404,7 +442,7 @@
   .header-section .navber-section .navber-links {
     position: fixed;
     right: -100%;
-    top: 68px;
+    top: 58px;
     gap: 54px;
     display: flex;
     flex-direction: column;
@@ -499,6 +537,26 @@
     font-size: 16px;
     font-weight: 558;
   }
+
+  .experience .experience-text{
+    font-size: 34px;
+  }
+
+  .services .services-text{
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 810px){
+  .services{
+    height: 184vh;
+  }
+}
+
+@media screen and (max-width: 668px){
+  .about{
+    height: 112vh;
+  }
 }
 
 @media screen and (max-width: 568px){
@@ -507,6 +565,14 @@
   }
 
   .experience .experience-container .sub-containers .experience-card-container{
+    justify-content: center;
+  }
+
+  .services{
+    height: 268vh;
+  }
+
+  .services .services-container .sub-containers .services-card-container{
     justify-content: center;
   }
 }
@@ -572,6 +638,14 @@
   .skills .skills-container .sub-containers .performence-skills-container .circular-progress .progress-value{
     width: 158px;
     height: 158px;
+  }
+
+  .experience .experience-text{
+    font-size: 34px;
+  }
+
+  .services .services-text{
+    font-size: 34px;
   }
 }
 
