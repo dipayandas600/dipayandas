@@ -171,10 +171,10 @@
   
   .right-and-left-side .right-side .buttons{
     display: flex;
-    gap: 54px;
+    gap: 48px;
   }
 
-  .right-and-left-side .right-side .buttons #button a{
+  .right-and-left-side .right-side .buttons a #button{
     font-size: 16px;
   }
 
@@ -435,6 +435,10 @@
     height: 60px;
   }
 
+  .header-section .navber-section .logo{
+    font-size: 22.44px;
+  }
+
   .header-section .navber-section .hamburger {
     display: block;
   }
@@ -488,11 +492,13 @@
     flex-direction: column-reverse;
     margin: 94px 0 0 0;
     padding: 0 0 126px 0;
+    /* height: 88vh; */
   }
 
   .right-and-left-side .right-side {
     display: flex;
     gap: 26px;
+    /* margin: 116px 0 0 0; */
   }
 
   .about .about-text {
@@ -776,7 +782,7 @@
 
   .right-and-left-side .right-side .buttons {
     display: flex;
-    gap: 44px;
+    gap: 16px;
   }
 
   .right-and-left-side .right-side .buttons #button {
