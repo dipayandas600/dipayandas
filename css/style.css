@@ -163,7 +163,7 @@ body {
 
 .right-and-left-side .right-side .buttons #button:hover {
   background-color: var(--hover-color);
-  box-shadow: 0 0 8px 8px rgba(88, 255, 88, 788);
+  box-shadow: 0 0 1.16px 1.16px rgba(88, 255, 88, 788);
   transition: all 0.8ms;
   color: black;
 }
@@ -230,6 +230,7 @@ body {
   line-height: 58px;
   letter-spacing: .68px;
   animation: slideLeft 0.8s;
+  word-wrap: break-word;
 }
 
 /* ==== ABOUT-COMPLETE ==== */

@@ -432,7 +432,7 @@
 
 @media screen and (max-width: 976px) {
   .header-section .navber-section {
-    height: 60px;
+    height: 54px;
   }
 
   .header-section .navber-section .logo{
@@ -490,9 +490,9 @@
   .right-and-left-side {
     display: flex;
     flex-direction: column-reverse;
-    margin: 94px 0 0 0;
-    padding: 0 0 126px 0;
-    /* height: 88vh; */
+    margin: 88px 0 0 0;
+    padding: 0 0 26px 0;
+    height: 88vh;
   }
 
   .right-and-left-side .right-side {
@@ -610,11 +610,15 @@
 @media screen and (max-width: 526px) {
   .right-and-left-side {
     margin: 116px 0 0 0;
-    padding: 0 0 168px 0;
+    padding: 0 0 116px 0;
   }
 
   .right-and-left-side .right-side .text-1 {
     font-size: 34px;
+  }
+
+  .right-and-left-side .right-side .text-2{
+    font-size: 16px;
   }
 
   .right-and-left-side .right-side .buttons {
@@ -769,7 +773,8 @@
 
 @media screen and (max-width: 388px) {
   .right-and-left-side {
-    padding: 0 0 188px 0;
+    margin: 116px 0 0 0;
+    padding: 0 0 88px 0;
   }
 
   .right-and-left-side .right-side .text-1 {
