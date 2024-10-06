@@ -71,6 +71,18 @@
   transition: all 0.8ms;
 }
 
+.header-section .navber-section #button{
+  background-color: rgb(0, 188, 0);
+  border-radius: 26px;
+  border: none;
+  padding: 8px 54px 8px 54px;
+  letter-spacing: 4px;
+  color: white;
+  font-size: 22.44px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .navber-section .hamburger {
   display: flex;
   flex-direction: column;
@@ -117,6 +129,17 @@ body {
   display: flex;
   flex-direction: column;
   gap: 58px;
+}
+
+.right-and-left-side .right-side .explore-button{
+  padding: 16px 0 16px 0;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  border-radius: 34px;
+  border: none;
+  background-color: rgb(0, 188, 0);
+  color: white;
 }
 
 .right-and-left-side .right-side .text-1 {
