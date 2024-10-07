@@ -250,10 +250,27 @@ body {
 
 .about .about-container p {
   font-size: 26px;
-  line-height: 58px;
+  line-height: 54px;
   letter-spacing: .68px;
   animation: slideLeft 0.8s;
   word-wrap: break-word;
+}
+
+.about .about-container .text-and-buttons .buttons{
+  display: flex;
+  gap: 54px;
+  margin: 26px 0 0 0;
+}
+
+.about .about-container .text-and-buttons .buttons #button{
+  padding: 8px 26px 8px 26px;
+  border-radius: 26px;
+  border: none;
+  background-color: rgb(0, 188, 0);
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
 }
 
 /* ==== ABOUT-COMPLETE ==== */
@@ -297,8 +314,13 @@ body {
 
 .skill {
   margin-top: 13.44px;
-  width: 588px;
+  padding: 8px 16px 8px 16px;
   animation: slideRight 0.8s;
+  display: flex;
+  gap: 16px;
+  margin: 34px 0 0 0;
+  box-shadow: 0 0 8px .02px;
+  border-radius: 8px;
 }
 
 .skill h3 {
@@ -367,6 +389,7 @@ body {
   margin-bottom: 26px;
   animation: slideLeft 0.8s;
   z-index: -1;
+  box-shadow: 0 0 8px .02px;
 }
 
 .skills .skills-container .sub-containers .performence-skills-container .circular-progress .progress-value{
