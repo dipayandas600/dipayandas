@@ -140,7 +140,7 @@ body {
   border: none;
   background-color: rgb(0, 188, 0);
   color: white;
-  box-shadow: 0 0 2px 2px;
+  box-shadow: 0 0 8px .02px rgb(0, 8, 0);
 }
 
 .right-and-left-side .right-side .text-1 {
