@@ -24,7 +24,7 @@
 
 .header-section {
   background-color: var(--header-color);
-  box-shadow: 4px 4px 2.8px 0 rgba(88, 255, 88, 788);
+  box-shadow: 0 0 34px 0;
   position: fixed;
   top: 0;
   width: 100%;
@@ -81,6 +81,7 @@
   font-size: 22.44px;
   font-weight: bold;
   cursor: pointer;
+  box-shadow: 0 0 4px .88px rgb(0, 8, 0);
 }
 
 .navber-section .hamburger {
@@ -223,6 +224,7 @@ body {
   height: 94vh;
   padding: 0 178px 0 178px;
   background-color: white;
+  box-shadow: 0 0 34px 0;
 }
 
 .about .about-text {
@@ -324,6 +326,10 @@ body {
   border-radius: 8px;
 }
 
+.skill .icons{
+  width: 54px;
+}
+
 .skill h3 {
   display: flex;
   justify-content: space-between;
@@ -349,7 +355,8 @@ body {
 }
 
 .progress {
-  background: var(--progress-bar-color);
+  /* background: var(--progress-bar-color); */
+  background-image: linear-gradient(to right, rgb(0, 88, 0) , rgb(0, 188, 0));
   height: 100%;
   width: 0;
   border-radius: 8px;
@@ -431,6 +438,7 @@ body {
   height: 94vh;
   padding: 0 188px 0 188px;
   background-color: white;
+  box-shadow: 0 0 34px 0;
 }
 
 .experience .experience-text{
@@ -593,6 +601,7 @@ body {
 .contact{
   height: 88vh;
   background-color: white;
+  box-shadow: 0 0 34px 0;
 }
 
 .contact .contact-text{
