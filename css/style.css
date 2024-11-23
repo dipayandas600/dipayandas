@@ -212,7 +212,7 @@ body {
 .right-and-left-side .left-side .background-image {
   width: 488px;
   border-radius: 116px;
-  box-shadow: 0 0 8px 8px rgba(88, 255, 88, 788);
+  box-shadow: 0 0 34px 0;
   animation: slideLeft 0.8s;
 }
 
@@ -247,7 +247,7 @@ body {
 .about .about-container .background-image {
   width: 488px;
   border-radius: 116px;
-  box-shadow: 0 0 8px 8px rgba(88, 255, 88, 788);
+  box-shadow: 0 0 34px 0;
   animation: slideRight 0.8s;
 }
 
@@ -274,6 +274,8 @@ body {
   font-weight: bold;
   letter-spacing: 2px;
   color: white;
+  box-shadow: 0 0 4px .88px rgb(0, 8, 0);
+  cursor: pointer;
 }
 
 /* ==== ABOUT-COMPLETE ==== */
@@ -463,7 +465,7 @@ body {
   width: 240px;
   height: 254px;
   border-radius: 8px;
-  box-shadow: 0 0 2px 2px rgba(88, 255, 88, 788);
+  box-shadow: 0 0 8px .16px;
   margin: 0 0 34px 0;
 }
 
@@ -577,7 +579,7 @@ body {
   width: 240px;
   height: 344px;
   border-radius: 8px;
-  box-shadow: 0 0 2px 2px rgba(88, 255, 88, 788);
+  box-shadow: 0 0 8px .16px;
   margin: 0 0 34px 0;
 }
 
@@ -662,7 +664,7 @@ body {
 
 .footer-section{
   background-color: var(--header-color);
-  box-shadow: 0 0 4px 4px rgba(88, 255, 88, 788);
+  box-shadow: 0 0 34px 0;
 }
 
 .footer-section .footer-text{
