@@ -108,7 +108,7 @@
 body {
   /* background-image: url(/public/images/backgroundimage.jpg); */
   /* background-image: url(/public/images/backgroundimage1.jpg); */
-  background-image: linear-gradient(to right, rgb(0, 34, 0) , rgb(0, 188, 0));
+  background-image: linear-gradient(to right, rgb(0, 188, 0) , rgb(0, 88, 0) , rgb(0, 68, 0) , rgb(0, 54, 0) , rgb(0, 34, 0) , rgb(0, 34, 0) , rgb(0, 54, 0) , rgb(0, 68, 0) , rgb(0, 88, 0) , rgb(0, 188, 0));
 }
 
 /* .body-section {
@@ -207,6 +207,10 @@ body {
   display: flex;
   gap: 116px;
   animation: slideUp 0.8s;
+}
+
+.right-and-left-side .right-side .social-links a{
+  box-shadow: 0 0 8px 0 rgb(0, 8, 0);
 }
 
 .right-and-left-side .left-side .background-image {
