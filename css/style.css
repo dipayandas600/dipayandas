@@ -227,6 +227,8 @@ body {
 .about {
   height: 94vh;
   padding: 0 178px 0 178px;
+  margin: 0 16px 0 16px;
+  border-radius: 54px;
   background-color: white;
   box-shadow: 0 0 34px 0;
 }
@@ -256,7 +258,8 @@ body {
 }
 
 .about .about-container p {
-  font-size: 26px;
+  font-size: 22px;
+  font-weight: 488;
   line-height: 54px;
   letter-spacing: .68px;
   animation: slideLeft 0.8s;
@@ -443,6 +446,8 @@ body {
 .experience{
   height: 94vh;
   padding: 0 188px 0 188px;
+  margin: 0 16px 0 16px;
+  border-radius: 54px;
   background-color: white;
   box-shadow: 0 0 34px 0;
 }
@@ -608,6 +613,8 @@ body {
   height: 88vh;
   background-color: white;
   box-shadow: 0 0 34px 0;
+  margin: 0 16px 0 16px;
+  border-radius: 54px;
 }
 
 .contact .contact-text{
