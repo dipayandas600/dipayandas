@@ -24,11 +24,12 @@
 
 .header-section {
   background-color: var(--header-color);
+  backdrop-filter: blur(88px);
   box-shadow: 0 0 34px 0;
   position: fixed;
   top: 0;
   width: 100%;
-  margin: 16px 8px 0 16px;
+  margin: 16px auto;
 }
 
 /* ==== NAVBER-SECTION-START ==== */
